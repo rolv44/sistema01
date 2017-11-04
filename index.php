@@ -28,7 +28,6 @@
                         <label for="exampleInputPassword1">CONTRASEÑA</label>
                         <input type="password" class="form-control" id="password" placeholder="Password">
                     </div>
-
                     <button type="button" onclick="validar()" class="btn btn-block">ACEPTAR</button>
                     <br>
                     <div class="alert alert-danger alert-dismissible" role="alert" hidden="hidden">
@@ -40,5 +39,4 @@
         </div>
     </div>
 </body>
-
 </html>

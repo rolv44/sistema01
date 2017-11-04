@@ -31,10 +31,8 @@
 				  "acciones":"'.$editar.$vermapa.'"
 				},';		
 	}	
-
 	//eliminamos la coma que sobra
 	$tabla = substr($tabla,0, strlen($tabla) - 1);
-
 	echo '{"data":['.$tabla.']}';	
 
 ?>
